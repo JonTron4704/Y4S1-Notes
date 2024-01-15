@@ -32,20 +32,25 @@ Steps 3 and 4 are the focus of this class.
 
 We can represent the forces on the wing/cantilever beam as follows:
 - $q$ = $q_{air}$ - $q_{weight}$
-- ![](L02-3.png)
+
+![](L02-3.png)
 
 Then we can represent the shear force in the following diagram:
 - $S = \huge \int_{\frac{L}{2}}^{z} \normalsize qdz +  \sum_{i=1}^{N} \normalsize P_{eng,i}$
-- ![](L02-4.png)
+
+![](L02-4.png)
 
 Then, the bending moment diagram:
 - $M = \huge \int_\frac{L}{2}^{z} \normalsize S dz$
-- ![](L02-5.png)
-- 
+  
+  [](L02-5.png)
+
 Finally, the torque diagram:
 - $m_z = q_{air} (x_z - x_{cp}) + q_w(x_{cg} - x_z)$
-- ![](L02-7.png)
-- ![](L02-6.png)
+
+![](L02-7.png)
+
+![](L02-6.png)
 
 # Wing Structure
 
