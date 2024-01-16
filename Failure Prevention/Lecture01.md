@@ -1,7 +1,6 @@
 # Design
 - Formulate a plan to satisfy a specific need
 - Process requires innovation, iteration and decision-making
-- i am gay - dinu, jan 9 2024
 - Communication intensive
 - Products should be
   - Functional
