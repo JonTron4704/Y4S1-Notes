@@ -1,3 +1,12 @@
+- [Rocket Propulsion Intro](#rocket-propulsion-intro)
+- [The Rocket Equation](#the-rocket-equation)
+  - [Constant Exit Velocity and Gravity](#constant-exit-velocity-and-gravity)
+  - [Initial Acceleration](#initial-acceleration)
+- [Updated Rocket Equation](#updated-rocket-equation)
+  - [Optimized Masss Fraction](#optimized-masss-fraction)
+- [Rocket Staging](#rocket-staging)
+
+
 # Rocket Propulsion Intro
 
 - Rockets produce thrust by ejecting mass at a high relative velocity $c$
@@ -70,6 +79,8 @@ From this, we can see:
   - First term in the parenthesis is more significant. Therefore increasing $n$ makes the whole term decrease.
 
 <br>
+
+## Optimized Masss Fraction
 
 Taking this equation and differentiating with respect to N, and optimizing it, we get:
 

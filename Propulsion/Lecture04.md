@@ -1,3 +1,16 @@
+- [Propellers](#propellers)
+- [Differential Equations](#differential-equations)
+  - [Integral Momentum Analysis](#integral-momentum-analysis)
+- [Propulsive Efficiency](#propulsive-efficiency)
+- [Actuator Disk Theory](#actuator-disk-theory)
+  - [Actuator Disk model of Propellers](#actuator-disk-model-of-propellers)
+    - [Velocity](#velocity)
+    - [Static and Stagnation Pressure](#static-and-stagnation-pressure)
+    - [Exit Velocity](#exit-velocity)
+    - [Ideal Propeller Power](#ideal-propeller-power)
+- [Governning Non-Dimensional Parameters](#governning-non-dimensional-parameters)
+
+
 # Propellers
 
 Key characteristics:
