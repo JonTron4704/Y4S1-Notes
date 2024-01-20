@@ -152,7 +152,7 @@ The thrust coefficient depends on:
  
 The torque coefficent follows similar behavior.
 - $T = F  d \rightarrow$ Torque = Force * Distance
-- $Q = k_Q \rho n^2 D^5
+- $Q = k_Q \rho n^2 D^5$
 - $k_Q =  f(Re, \ M_{tip}, \ J)$
 
 The propulsive efficiency is based on coefficients and the advance ratio
