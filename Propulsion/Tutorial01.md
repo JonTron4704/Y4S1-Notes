@@ -135,6 +135,8 @@ Now we find Delta V:
 
 ### Part A - $U_e$
 
+<details> <summary> ANSWER </summary>
+
 Given
 - $d = 4.6m$
 - $F = 36.kN$
@@ -146,30 +148,44 @@ We can generalize the propeller as a disk and do:
 - Calculating for $u_e$ we get:
   - $u_e = 119.19 m/s$
 
+</details>
+
 ### Part B - $m$
 
+<details> <summary> ANSWER </summary>
 We can find $m$ from:
 - $T = \dot m (u_e - u_0)$
 - $m = \dfrac{T}{u_e - u_0}$
 - $m = 1895 kg/s$
 
+</details>
 
 ### Part C - Fan Pressure Rise
+
+<details> <summary> ANSWER </summary>
 
 We can find pressure rise from:
 - $\Delta P = \dfrac{1}{2} \rho (u_e^2 - u_0^2)$
 - $\Delta P = 2142 Pa$
 
+</details>
+
 ### Part D - Propulsive Efficiency
 
+<details> <summary> ANSWER </summary>
+
 - $\eta_{prop} = \dfrac{2}{1 + \dfrac{u_e}{u_0}}$
-- $\eta_{prop} = 0.913 = 91%
+- $\eta_{prop} = 0.913 = 91%$
+
+</details>
 
 <br> <br>
 
 ## Problem 2
 
 ### Part A - Advance Ratio
+
+<details> <summary> ANSWER </summary>
 
 $J = \dfrac{u_0}{Dn}$
 
@@ -181,16 +197,22 @@ Fan speed is given as $1000rpm = \dfrac{1000}{60} rev/s = 16.67$ rev/s
 
 $J = \dfrac{100}{4.6 * 16.67} = 1.3$
 
+</details>
 
 ### Part B - Thrust Coefficient
+
+<details> <summary> ANSWER </summary>
 
 $T = k_T \rho n^2 D^4$
 
 - $k_T = \dfrac{T}{\rho n^2 D^4}$
 - $k_T = 0.28$
 
+</details>
 
 ### Part C - Power Coefficient
+
+<details> <summary> ANSWER </summary>
 
 We start with the propulsive efficiency (found in 1d)
 - $\eta_{prop} = \dfrac{1}{2\pi} \dfrac{k_t}{k_Q} J$
@@ -200,3 +222,5 @@ We start with the propulsive efficiency (found in 1d)
 Now we use:
 - $C_P = 2\pi k_Q$
 - $C_P = 0.4015$
+
+</details>
