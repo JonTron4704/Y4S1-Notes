@@ -9,6 +9,7 @@
   - [Thrust in Terms of Pressure Ratio](#thrust-in-terms-of-pressure-ratio)
 - [Thrust Coefficient for Rocket Engines](#thrust-coefficient-for-rocket-engines)
 - [Non-Ideal Expansion](#non-ideal-expansion)
+- [$P\_e$ and $P\_0$ in Non-Ideal Expansion](#p_e-and-p_0-in-non-ideal-expansion)
   - [Modified Thrust for Overexpansion with Separation](#modified-thrust-for-overexpansion-with-separation)
 
 
@@ -159,7 +160,7 @@ So using the expression for non-dimensional thrust just above, gives the coeffic
 What is the relationship to the effective exhaust velocity?
 
 From last time we had
-- $F = \dot m c = \dfrac{P_C}{A^*}{c^*}c = P_c A^* c_F$
+- $F = \dot m c = \dfrac{P_C}{A^*}c^*c = P_c A^* c_F$
 
 So...
 - $c = c^* c_F$
@@ -171,7 +172,8 @@ So...
 
 So far we have assumed that flow remains supersonic and fills the entire nozzle to the exit. Reality is a bit more complex.
 - $A_n =$ throat area
-- ![](2024-01-09-17-39-22.png)
+
+![](2024-01-09-17-39-22.png)
 
 
 Ideal expansion gives the maximum thrust for a givven ambient pressure $P_0$
@@ -191,6 +193,14 @@ Consider the overexpanding nozzle in the above figure, b).
   - Oblique shocks form at nozzle exit strong enough to separate the boundary layer (see "a" in the figure above)
   - Separation point moves into the nozzle, decreasing the effective area.
     - Occurs at approximately $P_s$, where $\dfrac{P_s}{P_0} = \dfrac{1}{2}$ to $\dfrac{1}{2.5}$
+
+<br> <br>
+
+# $P_e$ and $P_0$ in Non-Ideal Expansion
+
+- In ideal expansion, $P_e = P_0$
+- In Overexpansion, where the nozzle is too long, $P_e < P_0$, causing suction to occur and reducing thrust.
+- In Underexpansion, where the nozzle is too short, $P_e > P_0$, causing some potential thrust to be lost and lowering efficiency
 
 ## Modified Thrust for Overexpansion with Separation
 
