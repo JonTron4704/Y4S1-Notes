@@ -6,6 +6,7 @@ You can access each of the lectures for Aerospace Propulsion here.
 - [Lecture 4](./Lecture04.md)
 - [Lecture 5](./Lecture05.md)
 - [Lecture 6](./Lecture06.md)
+- [Lecture 7](./Lecture07.md)
 
 You can access the tutorials done below:
 

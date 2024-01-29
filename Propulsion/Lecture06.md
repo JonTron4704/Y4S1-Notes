@@ -199,7 +199,7 @@ Essentially it's $\dfrac{\textrm{What you get}}{\textrm{What you pay for}}$
 - $\eta_0 = \dfrac{1}{\textrm{SFC}} \dfrac{V}{\textrm{LCV}}$
   - Recall that:
   - $\textrm{SFC}$ is the specific fuel consumption
-  - $\textrm{LCV}$ is the (TODO i have no idea)
+  - $\textrm{LCV}$ is the lower heating value of the fuel
 
 ## Jet Velocity and Net Thrust
 
