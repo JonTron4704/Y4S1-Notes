@@ -8,3 +8,5 @@ You can access each of the lectures for Aerospace Structures here.
 - [Lecture 6](./Lecture06.md)
 - [Lecture 7](./Lecture07.md)
 - [Lecture 8](./Lecture08.md)
+- [Lecture 9](./Lecture09.md)
+- [Lecture 10](./Lecture10.md)
