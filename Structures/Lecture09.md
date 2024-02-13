@@ -21,7 +21,7 @@ All dimensions are in  [mm] in the picture above.
 
 **Step 1: Find the position of the centroid**
 - $b = \dfrac{\sum b_i A_i}{A} = \dfrac{4(120)(8) + 48(80)(8)}{120(8) + 80(8)} = 21.6 mm$
-- $a = \dfrac{\sum a_i A_i}{A} = \dfrac{24*120*8 + 4*80*8}{120*8+80*8}$
+- $a = \dfrac{\sum a_i A_i}{A} = \dfrac{24(120)(8) + 4(80)(8)}{120(8)+80(8)}$
 
 **Step 2: Calculate $I_{xx}, I_{yy}, I_{xy}$**
 
@@ -32,17 +32,17 @@ Remember: $I = \dfrac{bh^3}{12} + Ad^2$
 - $d$ is the perpendicular distance from the centroid of the section to the overall centroid.
 
 Calculating $I_{xx}$:
-- $I_{xx} = \left[  \dfrac{120*8^3}{12} + (17.6^2)(120*8) \right] + \left[ \dfrac{8*80^3}{12} + (26.4^2)(80*8) \right]$
+- $I_{xx} = \left[  \dfrac{120(8^3)}{12} + (17.6^2)(120(8)) \right] + \left[ \dfrac{8*80^3}{12} + (26.4^2)(80(8)) \right]$
 - $I_{xx} = 1.09*10^6 mm^4$
 
 Calculating $I_{yy}$:
-- $I_{yy} = \left[  \dfrac{8*120^3}{12} + (8^2)(120*8) \right] + \left[ \dfrac{80*8^3}{12} + (12^2)(80*8) \right]$
+- $I_{yy} = \left[  \dfrac{8(120^3)}{12} + (8^2)(120(8)) \right] + \left[ \dfrac{80(8^3)}{12} + (12^2)(80(8)) \right]$
 - $I_{yy} = 1.31*10^6 mm^4$
 
 Calculating $I_{xy}$:
 - $I_{xy} = I_{XY} + min\ A$
 - We take note that $I_{XY} = 0$ (capital XY) due to there being an axis of symmetry 
-- $I_{xy} = (17.6)(8)(120*8) + (-26.4)(-12)(80*8)M_x$
+- $I_{xy} = (17.6)(8)(120(8)) + (-26.4)(-12)(80(8))M_x$
 - $I_{xy} = 0.34 * 10^6 mm^4$
 
 **Step 3: Find the stress distribution as a function of x, y**
