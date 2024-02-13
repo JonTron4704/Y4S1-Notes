@@ -20,7 +20,7 @@ We can find the angle of the neutral axis as:
 All dimensions are in  [mm] in the picture above.
 
 **Step 1: Find the position of the centroid**
-- $b = \dfrac{\sum b_i A_i}{A} = \dfrac{4*120*8 + 48*80*8}{120*8 + 80*8} = 21.6 mm$
+- $b = \dfrac{\sum b_i A_i}{A} = \dfrac{4(120)(8) + 48(80)(8)}{120(8) + 80(8)} = 21.6 mm$
 - $a = \dfrac{\sum a_i A_i}{A} = \dfrac{24*120*8 + 4*80*8}{120*8+80*8}$
 
 **Step 2: Calculate $I_{xx}, I_{yy}, I_{xy}$**
