@@ -95,7 +95,7 @@ $q_s = \dfrac{S_y I_{xy}}{I_{xx}I_{yy} - I_{xy}^2} \int \limits_0^s tx ds - \dfr
 First we find the geometric properties $I_xx$, $I_yy$, and $I_{xy}$:
 - $I_{xx} = \dfrac{h^3t}{3}$
 - $I_{yy} = \dfrac{h^3t}{12}$
-- $I_{xy} = $\dfrac{h^3t}{8}$
+- $I_{xy} = \dfrac{h^3t}{8}$
 
 Now plug these back into the original $q_s$ equation. Doing this we get:
 - $q_s = \dfrac{S_y}{h^3} \int \limits_0^s \left(10.32x - 6.84y \right)ds$
