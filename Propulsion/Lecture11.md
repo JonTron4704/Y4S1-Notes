@@ -178,7 +178,7 @@ We assume the non-dimensional condition is constant.
 
 The bypass nozzle is choked, so we have only one independent parameter:
 - $\dfrac{T_{04}}{T_{02}}$
-- This is kept constnat.
+- This is kept constant.
 
 So our output parameters below are kept constnat.
 - $\dfrac{F_G + P_a A_N}{D^2 P_{02}}$
