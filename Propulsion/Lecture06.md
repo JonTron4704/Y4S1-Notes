@@ -143,7 +143,7 @@ Engine thrust scales approximately with density, falling with altitude.
 We want an engine sized so it is efficient while producing the required thrust at the optimum top-of-climb altitude.
 
 To determine the thrust required, we typically require $\approx 300$ ft/min, or 1.5m/s climb rate at cruising altitude
-- $\dfrac{F_N}{w} = \dfrac{D}{w} + \sin(\theta) = \dfrac{1}{\left(\dfrac{L}{D}\right)} + \sin (\theta)$
+- $\dfrac{F_N}{W} = \dfrac{D}{W} + \sin(\theta) = \dfrac{1}{\left(\dfrac{L}{D}\right)} + \sin (\theta)$
 - $\theta \approx 0.5\degree$, which is the climb angle
 
 ## Engine Design

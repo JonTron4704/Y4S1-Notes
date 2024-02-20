@@ -9,11 +9,15 @@ A turbofan also has transmission efficiency factored in:
 - $\eta_0 = eta_p \times \eta_{th} \times \eta_{tr}$
 
 We can redefine ther thermal efficiency as the kinetic energy that would be produced if the core flow expanded to ambient pressure BEFORE work extracted to drive bypass part of fan, divided by heat input from combustion.
-- $\eta_{th} = \dfrac{\textrm{Kinetic energy that would be produced}}{\textrm{heat input from combustion}}$
+- $\eta_{th} = \dfrac{\textrm{Kinetic energy that would be produced, if the LPT wasn't powering the fan}}{\textrm{heat input from combustion}}$
 
 This creates a hypothetical point within the low pressure turbine (LPT) when sufficient work could have been extracted, to power the fan root and booster but NOT the bypass stream
 
 ![Alt text](image-14.png)
+
+In the figure above:
+- The booster is the low pressure compressor (LPC).
+- The Kinetic energy is shown here visually. It does not include the fan, and it does not include the portion of the LPT that powers the fan.
 
 Downstream of the hypothetical point within the LPT, there are losses with the flow in the LPT and the flow in the fan bypass streams (Transfer efficiency)
 - Increase in propulsive efficiency more than offsets these losses.
@@ -40,12 +44,19 @@ The figure above shows the differences in numbering between Turbojets and Turbof
 
 ![Alt Text](image-17.png)
 
+![Alt text](image-27.png)
+
+The figure above shows a detailed explanation of each stage of the turbofan.
+
 Looking at the turbofan specifically above:
 - the J in $V_{jb}$ and $V_{jc}$ is "Jet"
 - the B in $V_{jb}$ is "Bypass"
 - the C in $V_{jc}$ is "Core"
 
 So $V_{jb}$ is the Bypass Jet Velocity, and $V_{jc}$ is the Core Jet Velocity.
+
+Looking at the turbofan:
+1. 
 
 # T-S Diagram
 
