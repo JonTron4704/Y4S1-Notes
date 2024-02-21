@@ -166,6 +166,7 @@ Looking at the picture above:
 - We consider only the bypass thrust of the NEA engine (bypass thrust is over 90% of the thrust)
 
 Some takeways from this graph, for a twin-engine aircraft:
+- $P_a M^2 = \textrm{CONSTANT}$
 - We need double the design thrust
 - Aircraft must ascend to about 19,000 ft with only one operating engine
   - Not high enough for many mountain ranges. Mt Everest is 29,029 ft, for example.
