@@ -1,5 +1,6 @@
 - [Example 11.1](#example-111)
   - [Web (2-3)](#web-2-3)
+- [Shear Center](#shear-center)
 - [Principle of Superposition - Review](#principle-of-superposition---review)
 - [Algorithm to Find the Position of the Shear Center](#algorithm-to-find-the-position-of-the-shear-center)
 - [Example 11.2](#example-112)
@@ -33,13 +34,17 @@ Now that we have an equation for $q_{23}$ we can substitute in the points 2, and
   - $\therefore q_3 = 0.42 \dfrac{S_y}{h}$
 - We note that $q_{23}$ is a parabola, and so the maximum is somewhere in the middle.
 
-TODO Figure 1
+![](L11-1.png)
+
+# Shear Center
+
+![](L11-2.png)
 
 # Principle of Superposition - Review
 
 Superposition allows you to find the effects of various applied loads, distributed loads etc.. on stress and other parameters, by breaking the system down into multiple simpler systems and summing the results.
 
-Figure 3
+![](L11-3.png)
 
 Principle of Superposition: $\sigma = \sigma_1 + \sigma_2 + \dots$
 
@@ -56,7 +61,7 @@ Figure 6
 
 # Example 11.2
 
-TODO Figure 2
+![](L11-2.png)
 
 There is a slit on the positive x axis quadrant of the cross section. This makes it an open-section beam.
 
@@ -104,7 +109,7 @@ Moving on...
 
 # Example 11.3
 
-Figure 5
+![](L11-4.png)
 
 We refer to the algorithm, step by step, seen below.
 
@@ -129,6 +134,8 @@ For 1-2:
 At point 2:
 - $q_2 = \dfrac{6S_yb}{h^2\left(1 + \dfrac{6b}{h}\right)}$
 
+![](L11-5.png)
+
 ## Step 3: Find the Shear Center
 
 We find point 2 specifically because we know it's zero at point 1, due to the open boundary. Point 2 allows us to calculate the distance between the Shear center and point A, seen below.
@@ -147,9 +154,11 @@ Lets take this equation for $\zeta_S$ and consider adding some numbers...
 - $\zeta_S = \dfrac{3(50^2)}{2(50)\left(1 + \dfrac{6(50)}{2(50)}\right)}$
 - $\zeta_S = 18.75 mm$
 
-See the image below. This creates a point where if force is applied, no twisting will occur. Bending may still occur.
+![](L11-6.png)
 
-Figure 7
+See the image above. This creates a point where if force is applied, no twisting will occur. Bending may still occur.
+
+![](L11-7.png)
 
 The torsional stiffness (resistance to twisting) of a closed-section beam is MUCH higher than that of an open-section beam. Even with the same value of cross sectional area, same mass, etc..
 - When there is a concentrated torque in aerospace applications, closed section beams are used for this reason.
