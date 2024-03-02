@@ -64,7 +64,7 @@ The algorithm for finding $q_s$ is as follows:
 
 Find the $q_s$ distribution.
 - $I_{xx} = I_\textrm{semi-circle} + I_\textrm{remaining rectangle}$
-- $I_{xx} = \left(\dfrac{\pi t r^2}{2}\right)_\textrm{semi-circle} + \left[(2rt)r^2 \times 2 + \dfrac{t(2r)^3}{12}\right]_\textrm{rectangle} = 6.24 tr^3$ 
+- $I_{xx} = \left(\dfrac{\pi t r^2}{2} \right) + \left[(2rt)r^2 \times 2 + \dfrac{t(2r)^3}{12} \right] = 6.24 tr^3$ 
 
 <br>
 
