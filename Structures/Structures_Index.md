@@ -14,3 +14,7 @@ You can access each of the lectures for Aerospace Structures here.
 - [Lecture 12](./Lecture12.md)
 - [Lecture 13](./Lecture13.md)
 - [Lecture 14](./Lecture14.md)
+
+Regarding the midterm, some useful notes can be found below.
+
+- [Shear Flow Example (more in-depth)](./ShearFlowExample.md)

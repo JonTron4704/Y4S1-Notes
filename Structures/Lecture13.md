@@ -90,7 +90,7 @@ We place the axis in p.0
 
 We can take advantage of symmetry and only integrate for one half (up to $\frac{\pi}{2})$, and then multiply it by two.
 - Along the curve, the shear force acts tangentially, at a constant distance $r$ from the center.
-- Along the vertical wall 34, the shear force acts vertically at a constant distance $$
+- Along the vertical wall 34, the shear force acts vertically at a constant distance $2r$ from the center of the circle.
 - $0 = 2 \left[ \int_0^{\frac{\pi}{2}}0.16 \dfrac{S_y}{r} \left(\cos \theta - 1 \right) rd\theta -   \int_0^{2r} r \left[ 0.16 \dfrac{S_y}{r^2} (S_1 + r) \right]dS_1  - \int 2r \left[ 0.16 \dfrac{S_y}{r^3} (0.5S_2^2 - rS_2 + 3r^2)dS_2 \right] + 2\left(\dfrac{\pi r^2}{2} + (2r \times 2r) \right ) \right]$
 
 Now we solve each integration and simplify.
