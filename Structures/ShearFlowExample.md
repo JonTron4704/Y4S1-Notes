@@ -12,10 +12,10 @@ Since the top and bottom walls are symmetric:
 - $I_{xx} = I_\textrm{semi-circle} + 2I_\textrm{top wall} + I_\textrm{wall 3-4}$
 
 
-- $I_{xx} = \left(\dfrac{\pi t r^3}{2}\right)_\textrm{semi-circle} + \left( \dfrac{2rt^3}{12} + 2rt(r^2)\right)_\textrm{top wall} + \left( \dfrac{(2r)^3 t}{12} + 2rt(0) \right)_\textrm{wall 3-4}$
+- $I_{xx} = \left(\dfrac{\pi t r^3}{2}\right) (\textrm{semi-circle}) + 2\left( \dfrac{2rt^3}{12} + 2rt(r^2)\right) (\textrm{top + bottom walls}) + \left( \dfrac{(2r)^3 t}{12} + 2rt(0) \right) (\textrm{vertical wall 3-4})$
 
-For the top wall, the first term is neglected because it has a higher order of thickness. For the second term, the distance from point 6 to the X axis is zero, so tha term drops out. We are left with:
-- $I_{xx} = \left(\dfrac{\pi t r^3}{2}\right) + \left(2rt(r^2)\right) + \left( \dfrac{(2r)^3 t}{12}\right)$
+For the top wall, the first term is neglected because it has a higher order of thickness. For the second term, the distance from point 6 to the X axis is zero, so that term drops out. We are left with:
+- $I_{xx} = \left(\dfrac{\pi t r^3}{2}\right) + 2\left(2rt(r^2)\right) + \left( \dfrac{(2r)^3 t}{12}\right)$
 
 Solving, we get:
 - $I_{xx} = 6.24 tr^3$ 
