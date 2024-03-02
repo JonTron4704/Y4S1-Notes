@@ -33,9 +33,9 @@ Substituting in the equation $q = \dfrac{T}{2A}$:
 - $\dfrac{d\theta}{dz} = \dfrac{T}{4A^2} \oint \dfrac{dS}{Gt}$
 - This is the rate of twist for Bread-Batho flow.
 
-# Example 14.1
+![](L14-1.png)
 
-Figure 1
+# Example 14.1
 
 Given:
 - Circular Beam
@@ -124,7 +124,7 @@ Now comparing this thickness to the one from the strength condition. It must sat
 
 Looking at open section beams and skipping the derivation:
 
-Figure 3
+![](L14-2.png)
 
 From deformable bodies:
 - $\theta = \dfrac{TL}{GJ}$
@@ -148,7 +148,7 @@ Using shear stress:
 
 Open-section beam problem
 
-Figure 4
+![](L14-3.png)
 
 Given:
 - $T = 10 Nm$

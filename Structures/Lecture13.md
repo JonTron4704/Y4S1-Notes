@@ -65,6 +65,9 @@ Because the shape is perfectly symmetrical about its horizontal axis, we can dra
 ## New starting Lecture 13
 
 For the vertical wall (Wall 34):
+
+![](L13-1.png)
+
 - $q_b = -0.16 \dfrac{S_y}{r} \int ydS$, where $y = r - S_2$
 - $q_{b, 34} = -0.16 \dfrac{S_y}{r^2} \int_0^{S_2} (r - S_2)dS_2 - 0.48 \dfrac{S_y}{r}$
 - $qq_{b, 34} = -0.16 \dfrac{S_y}{r} \left (S_2 r - \dfrac{S_2^2}{r}  \right ) - 0.48 \dfrac{S_y}{r}$
@@ -109,7 +112,7 @@ Now we can solve for $q_{s, 0}$
 
 ### Step 3: qs = qb + qs0
 
-Figure 3
+![](L13-2.png)
 
 We solve it in terms of each side.
 
@@ -126,24 +129,22 @@ Then the top (23)
 Finally the vertical edge (34)
 - $q_{s, 34} = 0.16 \dfrac{S_y}{r^2} \left (0.5 S_2^2 - rS_2 - r^2 \right)$
 
-Figure 4
+![](L13-3.png)
 
 As a sanity check look at the figure above. The result of the calculations should verify that this condition is true.
 
 This example will likely be on the midterm. It will also appear in the tutorial. A solution is found in the textbook but it's not as comprehensive as the professor's.
 
 
-# Torsion of T/W Beams
+# Torsion of Thick Walled Beams
 
-Figure 5
+![](L13-4.png)
 
 ## Rate of Twist
 - $\gamma \rightarrow$ shear strain
 - $\theta \rightarrow$ angle of twist
 - $\dfrac{d\theta}{dz} = \textrm{constant}$
-- We look at triangles HBA' and ACA'
-
-Figure 6
+- We look at triangles B-A-A' and A-O-A'
 
 Looking at the triangle of O-A-A':
 - $AA' = L\gamma = R\theta$
@@ -153,10 +154,10 @@ Looking at the triangle of O-A-A':
 Now looking at the torque:
 - $T = \oint q_s ds = RL$
 - $T = \left[ \int \tau dA_{c/s} \right] R$ 
-- $T =$ 
-
-# TODO
-
+- $T =\left[ \int_{A_{c/s}} G\gamma dA_{c/s} \right] R$
+- $T = GR \int_0^S \dfrac{d\theta}{dZ} R tdS$
+- $T = Gt \dfrac{d\theta}{dZ}R^2 \int_0^S dS$
+- $T = GTR^3 \dfrac{d\theta}{dZ} 2\pi$  
 - $T = R \oint q_s ds = G + 2\pi R^3 \dfrac{d\theta}{dz}$
 - $\dfrac{d\theta}{dz} = \dfrac{1}{2\pi R^2} \oint \dfrac{q_s}{Gt}dS$
 
