@@ -94,7 +94,7 @@ We can take advantage of symmetry and only integrate for one half (up to $\frac{
 - $0 = 2 \left[ \int_0^{\frac{\pi}{2}}0.16 \dfrac{S_y}{r} \left(\cos \theta - 1 \right) rd\theta -   \int_0^{2r} r \left[ 0.16 \dfrac{S_y}{r^2} (S_1 + r) \right]dS_1  - \int 2r \left[ 0.16 \dfrac{S_y}{r^3} (0.5S_2^2 - rS_2 + 3r^2)dS_2 \right] + 2\left(\dfrac{\pi r^2}{2} + (2r \times 2r) \right ) \right]$
 
 Now we solve each integration and simplify.
-- 0 = $0.16 S_y r \left (\sin \theta - \theta \right) |_0 ^\frac{\pi}{2} - 0.16 \dfrac{S_y}{r} \int_0^{2r} (S_1 + r) dS_1 - 0.32 \dfrac{S_y}{r^2} \int_0^r -0.5S_2^2 + rS_2 + 3r^2)dS_2 + r^2 \left(4 + \dfrac{\pi}{2}\right) q_{s, 0}$
+- 0 = $0.16 S_y r \left (\sin \theta - \theta \right) - 0.16 \dfrac{S_y}{r} \int_0^{2r} (S_1 + r) dS_1 - 0.32 \dfrac{S_y}{r^2} \int_0^r -0.5S_2^2 + rS_2 + 3r^2)dS_2 + r^2 \left(4 + \dfrac{\pi}{2}\right) q_{s, 0}$
 
 <br>
 
