@@ -3,6 +3,8 @@
 
 **The images and content below come from the end of lecture 12 and are repeated here.**
 
+![](L12-3.png)
+
 Find the $q_s$ distribution.
 - $I_{xx} = I_\textrm{semi-circle} + I_\textrm{remaining rectangle}$
 - $I_{xx} = \left(\dfrac{\pi t r^2}{2}\right)_\textrm{semi-circle} + \left[(2rt)r^2 \times 2 + \dfrac{t(2r)^3}{12}\right]_\textrm{rectangle} = 6.24 tr^3$ 
@@ -13,12 +15,15 @@ We can write the equation for $q_s$ and plug in $I_{xx}$ and simplify:
 - $q_s = -\dfrac{S_y}{I_{xx}} \int \limits_0^S tyds + q_{s,0}$
 - $q_s = -0.16 \dfrac{S_y}{r^3} \int \limits_0 ^S yds + q_{s,0}$
 
-### Step 1: Calculate $q_b$:
+## Step 1: Calculate $q_b$:
 
 General expression with values subbed in:
 - $-0.16 \dfrac{S_y}{r^3} \int \limits_0^S yds$
 
 First look at Wall 1-2:
+
+![](L12-4.png)
+
 - We replace $y \rightarrow r \sin \theta$ and $dS \rightarrow r d\theta$
 - We note that $q_{s, 0} = 0$ since we start at the virtual cut where $q = 0$
 - $q_{b, 12} = -0.16 \dfrac{S_y}{r^3} \int \limits_0 ^{\pi/2} (r\sin \theta) (rd\theta) + 0$
@@ -32,7 +37,12 @@ Then we substitute in each point.
 - Point 1: $\theta = 0 \Rightarrow q_{b,1} = 0$
 - Point 2: $\theta = \dfrac{\pi}{2} \Rightarrow q_{b,2} = -0.16 \dfrac{S_y}{r}$
 
+<br> <br> <br>
+
 We do the same with Wall 2-3 now. The $y$ coordinate for any point in this wall is $r$.
+
+![](L12-5.png)
+
 - $y = r$, $x = S$
 - We also have to add in the effects of $q_{b,12}$ since it immediately precedes wall 2-3.
 - $q_{b, 23} = -0.16 \dfrac{S_y}{r^3} \int \limits_0^S rdS + q_{b, 12}$
@@ -47,13 +57,12 @@ Then we check points 2, 3:
   - This is the same as the value for point 2 we calculated previously, which confirms our answer is correct.
 - Point 3: $S_1 = 2r \Rightarrow q_{b, 3}=-0.48 \dfrac{S_y}{r}$
 
-Figure 5
+![](L12-6.png)
 
-Continued in the next lecture after reading week.
+Because the shape is perfectly symmetrical about its horizontal axis, we can draw in the shear flow distribution on the bottom of the shape as well (points 4-5-6), based on the value of the top (points 1-2-3). The vertical wall, 3-4, is covered next lecture.
 
-## New starting Lecture 13.1
 
-Figure 1
+## New starting Lecture 13
 
 For the vertical wall (Wall 34):
 - $q_b = -0.16 \dfrac{S_y}{r} \int ydS$, where $y = r - S_2$
