@@ -139,10 +139,10 @@ At point 2:
 ## Step 3: Find the Shear Center
 
 We find point 2 specifically because we know it's zero at point 1, due to the open boundary. Point 2 allows us to calculate the distance between the Shear center and point A, seen below.
-- $S_y \zeta_S = 2 \times \dfrac{h}{2} \int \limits_0 ^S \dfrac{6S_y}{h^2 \left(1+ \dfrac{6b}{h}\right)}S_1 dS_1$
+- $S_y \zeta_S = 2 \times \dfrac{h}{2} \int \limits_0 ^b \dfrac{6S_y}{h^2 \left(1+ \dfrac{6b}{h}\right)}S_1 dS_1$
 - Where:
   - $\dfrac{h}{2}$ is the arm
-  - $\int \limits_0 ^S \dfrac{6S_y}{h^2 \left(1+ \dfrac{6b}{h}\right)}S_1 dS_1$ is the force
+  - $\int \limits_0 ^b \dfrac{6S_y}{h^2 \left(1+ \dfrac{6b}{h}\right)}S_1 dS_1$ is the force
   - We multiply by two because we have two forces
 
 We take this equation and solve for $\zeta_S$. The result is:

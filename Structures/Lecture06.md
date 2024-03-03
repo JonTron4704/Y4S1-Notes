@@ -74,10 +74,10 @@ We first need to find $I_{xx}$.
 
 ![](L06-8.png)
 
-- $I_{xx} = \dfrac{200*300^2}{12} - \dfrac{(200-25)(300-(2*20))^2}{12} = 193.7*10^6 mm^4$
+- $I_{xx} = \dfrac{200\times300^2}{12} - \dfrac{(200-25)(300-(2\times20))^2}{12} = 193.7\times10^6 mm^4$
 
 Now we can find stress:
-- $\sigma_z = \dfrac{-100 * 10^6 Nmm}{193.7*10^6 mm^4}y = -0.52y$
+- $\sigma_z = \dfrac{-100 \times 10^6 Nmm}{193.7\times10^6 mm^4}y = -0.52y$
 - $\sigma_z = -0.52y$
 
 Now we can find the max and min stress, at the max and min values of $y$ respectively.
