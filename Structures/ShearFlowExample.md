@@ -100,7 +100,7 @@ Here, $y = r - S_2$, with $S_2 = 0$ at point 3 and $S_2 = 2r$ at point 4.
 - $q_{b, 34} = -0.16 \dfrac{S_y}{r^3} \left (S_2 r - \dfrac{S_2^2}{2}  \right ) - 0.48 \dfrac{S_y}{r}$
 
 Then factoring these terms together into one bracket:
-- $q_{b, 34} = -0.16 \dfrac{S_y}{r^3} \left(0.5 S_2^2 - rS_2 + 3r^2 \right )$
+- $q_{b, 34} = -0.16 \dfrac{S_y}{r^3} \left(-0.5 S_2^2 + rS_2 + 3r^2 \right )$
 
 At point 3 (Top):
 - $S_2 = 0 \Rightarrow q_{b,3} = -0.48 \dfrac{S_y}{r}$
