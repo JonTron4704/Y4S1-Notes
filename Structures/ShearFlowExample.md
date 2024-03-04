@@ -43,9 +43,9 @@ First look at Wall 1-2:
 ![](L12-4.png)
 
 - We replace $y \rightarrow r \sin \theta$ and $dS \rightarrow r d\theta$
-- We note that $q_{s, 0} = 0$ since we start at the virtual cut where $q = 0$
-- $q_{b, 12} = -0.16 \dfrac{S_y}{r^3} \int \limits_0 ^{\pi/2} (r\sin \theta) (rd\theta) + 0$
-- $q_{b, 12} = -0.16 \dfrac{S_y}{r} \int \limits_0 ^{\pi/2} \sin \theta d\theta$
+- We note that $q_{b, 1} = 0$ since we start at the virtual cut where $q = 0$
+- $q_{b, 12} = -0.16 \dfrac{S_y}{r^3} \int \limits_0 ^{\theta} (r\sin \theta) (rd\theta) + 0$
+- $q_{b, 12} = -0.16 \dfrac{S_y}{r} \int \limits_0 ^{\theta} \sin \theta d\theta$
 - $q_{b, 12} = 0.16 \dfrac{S_y}{r} \cos \theta |_0^\theta$
 
 Final equation:
@@ -64,8 +64,8 @@ We do the same with Wall 2-3 now. The $y$ coordinate for any point in this wall 
 ![](L12-5.png)
 
 - $y = r$, $x = S$
-- We also have to add in the effects of $q_{b,12}$ since it immediately precedes wall 2-3 (wall 2-3 connects to point 2 which was solved, and so the two values must match each other)
-- $q_{b, 23} = -0.16 \dfrac{S_y}{r^3} \int \limits_0^S rdS + q_{b, 12}$
+- We also have to add in the effects of $q_{b,2}$ since it immediately precedes wall 2-3 (wall 2-3 connects to point 2 which was solved, and so the two values must match each other)
+- $q_{b, 23} = -0.16 \dfrac{S_y}{r^3} \int \limits_0^S rdS + q_{b, 2}$
 - $q_{b, 23} = -0.16 \dfrac{S_y}{r^3} \int \limits_0^S rdS -0.16 \dfrac{S_y}{r}$
 - $q_{b, 23} = -0.16 \dfrac{S_y}{r^2}S_1 - 0.16 \dfrac{S_y r}{r^2}$
 
