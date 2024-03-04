@@ -151,14 +151,17 @@ We need $\oint (p) (q_b)(dS)$ for segment 2-3
 - $q_b = -0.16 \dfrac{S_y}{r} (\dfrac{S}{r} + 1) = -0.16 \dfrac{S_y}{r^2} (S + r)$ 
 
 Combining these:
-- $\int_0^{2r} (r) 0.16 \dfrac{S_y}{r^2}(S + r)dS$
-- $0.16 \dfrac{S_y}{r} \int_0^{2r} (S + r)dS$
-- $0.16 \dfrac{S_y}{r} \left(\dfrac{S^2}{2} + rS\right)$ ------ from $S = 0$ to $2r$
-- $0.16 \dfrac{S_y}{r} \left(\dfrac{4r^2}{2} + 2r^2\right)$
-- $0.16 \dfrac{S_y}{r} r^2 (2 + 2)$
-- $0.64 S_y r$
+- $\int_0^{2r} (r) \left(-0.16 \dfrac{S_y}{r^2}(S + r)\right)dS$
 
-This should be $-0.64 S_y r$. Why is it negative? TODO
+- $\left(-0.16 \dfrac{S_y}{r}\right) \int_0^{2r} (S + r)dS$
+
+- $\left(-0.16 \dfrac{S_y}{r}\right) \left(\dfrac{S^2}{2} + rS\right)$ ------ from $S = 0$ to $2r$
+
+- $\left(-0.16 \dfrac{S_y}{r}\right) \left(\dfrac{4r^2}{2} + 2r^2\right)$
+
+- $\left(-0.16 \dfrac{S_y}{r}\right) r^2 (2 + 2)$
+
+- $-0.64 S_y r$
 
 ## Wall 3-4 (Vertical)
 
